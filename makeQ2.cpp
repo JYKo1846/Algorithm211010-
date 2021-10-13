@@ -44,7 +44,7 @@ void makeQ2()
 		}
 		else if(!strcmp(oper, "back")) {
 			if(q.size== 0) printf("-1\n");
-			else printf("%d\n", q.val[q.tail]);
+			else printf("%d\n", q.val[q.tail-1]);
 		}
 	}
 	
