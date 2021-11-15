@@ -20,7 +20,7 @@ void makeQ2()
 		fgets(cmd, sizeof(cmd), stdin);
 		char *oper= strtok(cmd, " \n");
 		char *num= strtok(NULL, " \n");
-		
+
 		if(!strcmp(oper, "push")) {
 			int tmp= atoi(num);
 			q.val[q.tail++]= tmp;
