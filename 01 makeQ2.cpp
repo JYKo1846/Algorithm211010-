@@ -1,5 +1,5 @@
-/*#include <stdio.h>		// makeQ.cpp ¿Í ´Ù¸¥Á¡ : 1) Á¤Àû¹è¿­À» ÀÌ¿ëÇØ ¸Þ¸ð¸® ºÎÆÐ ( Memory CorruptionÀ» ÇÇÇÔ)  
-#include <stdlib.h>		// 2) °¢ ¸í·É¾î ÇÔ¼ö¸¦ if¹®À¸·Î ´ëÃ¼ÇÏ¿©, "°ª¿¡ ÀÇÇÑ Àü´Þ" ·Î ¿À´Â µ¥ÀÌÅÍÀÇ ¹«ÀÇ¹ÌÇÑ ¹Ýº¹ÀÛ¾÷À» ¾ø¾Ú. 
+/*#include <stdio.h>		// makeQ.cpp ì™€ ë‹¤ë¥¸ì  : 1) ì •ì ë°°ì—´ì„ ì´ìš©í•´ ë©”ëª¨ë¦¬ ë¶€íŒ¨ ( Memory Corruptionì„ í”¼í•¨)  
+#include <stdlib.h>		// 2) ê° ëª…ë ¹ì–´ í•¨ìˆ˜ë¥¼ ifë¬¸ìœ¼ë¡œ ëŒ€ì²´í•˜ì—¬, "ê°’ì— ì˜í•œ ì „ë‹¬" ë¡œ ì˜¤ëŠ” ë°ì´í„°ì˜ ë¬´ì˜ë¯¸í•œ ë°˜ë³µìž‘ì—…ì„ ì—†ì•°. 
 #include <string.h>
 
 struct Queue{
