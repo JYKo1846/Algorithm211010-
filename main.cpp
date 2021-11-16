@@ -7,6 +7,8 @@ void makeQ3(); 	// c++ STL »ç¿ë
 void simpleKnapsack(); // 12865	20211110
 void DFSnBFS();	// 1260 20211110
 void searchMaze(); // 2178 20211115
+void estateNum(); // 2667 20211116
+void virus();	// 2606 20211116
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -15,5 +17,7 @@ int main(int argc, char** argv) {
 	//simpleKnapsack();
 	//DFSnBFS();
 	//searchMaze();
+	//estateNum();
+	//virus();
 	return 0;
 }
