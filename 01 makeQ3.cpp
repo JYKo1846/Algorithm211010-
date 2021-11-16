@@ -1,5 +1,5 @@
-/*#include <iostream>		// stl·Î ÇÒ °æ¿ì, ±¸ÇöÀº ½¬¿üÁö¸¸ ½Ã°£ÀÌ Á¤Àû¹è¿­·Î ±¸ÇöÇßÀ»¶§ º¸´Ù ¸Å¿ì ´À·È´Ù. ( 0ms , 334ms )  
-#include <string>		// Àß ±¸ºĞÇØ¼­ »ç¿ëÇÏÀÚ. 
+/*#include <iostream>		// stlë¡œ í•  ê²½ìš°, êµ¬í˜„ì€ ì‰¬ì› ì§€ë§Œ ì‹œê°„ì´ ì •ì ë°°ì—´ë¡œ êµ¬í˜„í–ˆì„ë•Œ ë³´ë‹¤ ë§¤ìš° ëŠë ¸ë‹¤. ( 0ms , 334ms )  
+#include <string>		// ì˜ êµ¬ë¶„í•´ì„œ ì‚¬ìš©í•˜ì. 
 #include <stdlib.h>
 #include <string.h>
 #include <queue>
@@ -15,7 +15,7 @@ void makeQ3()
 	for(i= 0; i< N; i++) {
 		string cmd;
 		getline(cin, cmd);
-		char t_cmd[50];					// char *t_cmd; strcpy(t_cmd, cmd.c_str()); ÀÌ·±½ÄÀ¸·Î Â®À»¶§, segmentation fault °¡ ¶ä. => Æ÷ÀÎÅÍ¿¡ Å©±â ÇÒ´çÀ» ¾È ÇÑ »óÅÂ·Î ³»¿ëÀ» º¹»çÇß±â ¶§¹®. 
+		char t_cmd[50];					// char *t_cmd; strcpy(t_cmd, cmd.c_str()); ì´ëŸ°ì‹ìœ¼ë¡œ ì§°ì„ë•Œ, segmentation fault ê°€ ëœ¸. => í¬ì¸í„°ì— í¬ê¸° í• ë‹¹ì„ ì•ˆ í•œ ìƒíƒœë¡œ ë‚´ìš©ì„ ë³µì‚¬í–ˆê¸° ë•Œë¬¸. 
 		strcpy(t_cmd, cmd.c_str());
 		char *oper= strtok(t_cmd, " ");
 		char *val= strtok(NULL, " ");
