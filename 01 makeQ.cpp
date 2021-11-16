@@ -1,5 +1,5 @@
-/*#include <stdio.h>			// Memory Corruption ÀÌ ¶á´Ù.   Dev-c++À¸·Î´Â ¾È ³ª¿ÀÁö¸¸, BOJ »ç¿ë½Ã ¸Þ¸ð¸® Ä¿·´¼Ç, ÀÌÀ¯´Â ¸»·Ï¿¡ ÀÖ´Ù°í »ý°¢ÇÔ 
-#include <stdlib.h>			// 2021. 10. 11 PM 9: 06 µ¿ÀûÇÒ´çÀ¸·Î Å¥¸¦ ±¸ÇöÇÏ´Â°Ç Áö±ÝÀº Æ÷±â. Á¤Àû¹è¿­À» »ç¿ëÇØ¼­ ±¸ÇöÇÏ´Â°É·ÎÇÏÀÚ. 
+/*#include <stdio.h>			// Memory Corruption ì´ ëœ¬ë‹¤.   Dev-c++ìœ¼ë¡œëŠ” ì•ˆ ë‚˜ì˜¤ì§€ë§Œ, BOJ ì‚¬ìš©ì‹œ ë©”ëª¨ë¦¬ ì»¤ëŸ½ì…˜, ì´ìœ ëŠ” ë§ë¡ì— ìžˆë‹¤ê³  ìƒê°í•¨ 
+#include <stdlib.h>			// 2021. 10. 11 PM 9: 06 ë™ì í• ë‹¹ìœ¼ë¡œ íë¥¼ êµ¬í˜„í•˜ëŠ”ê±´ ì§€ê¸ˆì€ í¬ê¸°. ì •ì ë°°ì—´ì„ ì‚¬ìš©í•´ì„œ êµ¬í˜„í•˜ëŠ”ê±¸ë¡œí•˜ìž. 
 #include <malloc.h>
 #include <string.h>
 
