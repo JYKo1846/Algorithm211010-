@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 void makeQ();	// 10845 20211011
-void makeQ2(); 	// À§ ¹®Á¦¸¦ Á¤Àû¹è¿­·Î ÇØ°á
-void makeQ3(); 	// c++ STL »ç¿ë 
+void makeQ2(); 	// ìœ„ ë¬¸ì œë¥¼ ì •ì ë°°ì—´ë¡œ í•´ê²°
+void makeQ3(); 	// c++ STL ì‚¬ìš© 
 void simpleKnapsack(); // 12865	20211110
 void DFSnBFS();	// 1260 20211110
 void searchMaze(); // 2178 20211115
