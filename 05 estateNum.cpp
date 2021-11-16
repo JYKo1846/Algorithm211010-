@@ -1,5 +1,5 @@
 // BOJ 2667 2021.11.16
-// BFS·Î ±¸ÇöÇØº¸ÀÚ  =>  ¼º°ø, Ç×»ó ½ÃÀÛÁ¡ÀÇ ¹æ¹®¿©ºÎ¸¦ Àß Ã¼Å©ÇÏÀÚ.
+// BFSë¡œ êµ¬í˜„í•´ë³´ìž  =>  ì„±ê³µ, í•­ìƒ ì‹œìž‘ì ì˜ ë°©ë¬¸ì—¬ë¶€ë¥¼ ìž˜ ì²´í¬í•˜ìž.
 /*
 #include <algorithm>
 #include <stdio.h>
@@ -9,12 +9,12 @@
 
 using namespace std;
 
-int estate[30][30];			// ÀÔ·Â°ªÀ¸·Î µé¾î¿À°Ô µÇ´Â ¾ÆÆÄÆ®µéÀÇ ÁÂÇ¥°ªÀ» ÀúÀåÇÏ±â À§ÇÑ ¹è¿­ 
+int estate[30][30];			// ìž…ë ¥ê°’ìœ¼ë¡œ ë“¤ì–´ì˜¤ê²Œ ë˜ëŠ” ì•„íŒŒíŠ¸ë“¤ì˜ ì¢Œí‘œê°’ì„ ì €ìž¥í•˜ê¸° ìœ„í•œ ë°°ì—´ 
 bool visit[30][30];
-vector<int> num;			// °¢ ´ÜÁö ¼ö¸¦ ÀúÀåÇÏ±â À§ÇÑ ¹è¿­ 
-queue<pair<int, int> > q;	// BFS Å½»öÀ» À§ÇØ, ¾ÆÆÄÆ®ÀÇ ÁÂÇ¥°ªÀ» ÀúÀåÇÏ±â À§ÇÑ Å¥ 
+vector<int> num;			// ê° ë‹¨ì§€ ìˆ˜ë¥¼ ì €ìž¥í•˜ê¸° ìœ„í•œ ë°°ì—´ 
+queue<pair<int, int> > q;	// BFS íƒìƒ‰ì„ ìœ„í•´, ì•„íŒŒíŠ¸ì˜ ì¢Œí‘œê°’ì„ ì €ìž¥í•˜ê¸° ìœ„í•œ í 
 
-void bfs(int N) {			// BFSÀÌ¿ë, estate¿¡¼­ 1ÀÌ ¹ß°ßµÉ °æ¿ì, ±× ÁÂÇ¥¸¦ ±âÁØÀ¸·Î Å½»öÇÏ¸ç sizeº¯¼ö ++, Å¥°¡ ºñ°Ô µÇ¸é size ÀúÀå, ¸¶Áö¸· Á¡±îÁö Å½»öÀ» ¿Ï·á½ÃÅ°´Â ÇÔ¼ö 
+void bfs(int N) {			// BFSì´ìš©, estateì—ì„œ 1ì´ ë°œê²¬ë  ê²½ìš°, ê·¸ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ íƒìƒ‰í•˜ë©° sizeë³€ìˆ˜ ++, íê°€ ë¹„ê²Œ ë˜ë©´ size ì €ìž¥, ë§ˆì§€ë§‰ ì ê¹Œì§€ íƒìƒ‰ì„ ì™„ë£Œì‹œí‚¤ëŠ” í•¨ìˆ˜ 
 	int size= 0;
 	int i, j;
 	int dx[4]= { -1, 0, 1, 0};
@@ -24,7 +24,7 @@ void bfs(int N) {			// BFSÀÌ¿ë, estate¿¡¼­ 1ÀÌ ¹ß°ßµÉ °æ¿ì, ±× ÁÂÇ¥¸¦ ±âÁØÀ¸·Î Å
 	{
 		for(j= 0; j< N; j++) 
 		{
-			if(estate[i][j]==1 && !visit[i][j])		// Ã¹ ¹æ¹®ÇÑ ¾ÆÆÄÆ® ÀÏ °æ¿ì, ÇØ´ç ¾ÆÆÄÆ®¸¦ ±âÁØÀ¸·Î bfsÅ½»ö ½Ç½Ã 
+			if(estate[i][j]==1 && !visit[i][j])		// ì²« ë°©ë¬¸í•œ ì•„íŒŒíŠ¸ ì¼ ê²½ìš°, í•´ë‹¹ ì•„íŒŒíŠ¸ë¥¼ ê¸°ì¤€ìœ¼ë¡œ bfsíƒìƒ‰ ì‹¤ì‹œ 
 			{
 				q.push(make_pair(i, j));
 				visit[i][j]= 1;
@@ -56,10 +56,10 @@ void bfs(int N) {			// BFSÀÌ¿ë, estate¿¡¼­ 1ÀÌ ¹ß°ßµÉ °æ¿ì, ±× ÁÂÇ¥¸¦ ±âÁØÀ¸·Î Å
 }
 
 void estateNum() {
-	int N;		// ÇöÀç ÀÔ·Â°ªÀÇ Å©±â
+	int N;		// í˜„ìž¬ ìž…ë ¥ê°’ì˜ í¬ê¸°
 	int i;
 	 
-	for(i= 0;i< 30; i++)		// ¾ÆÆÄÆ® ´ÜÁö ÀÔ·Â ¹è¿­, ¹æ¹®¿©ºÎ ¹è¿­ ÃÊ±âÈ­ 
+	for(i= 0;i< 30; i++)		// ì•„íŒŒíŠ¸ ë‹¨ì§€ ìž…ë ¥ ë°°ì—´, ë°©ë¬¸ì—¬ë¶€ ë°°ì—´ ì´ˆê¸°í™” 
 	{
 		for(int j= 0; j< 30; j++) 
 		{
