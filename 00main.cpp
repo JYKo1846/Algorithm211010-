@@ -8,7 +8,9 @@ void simpleKnapsack(); // 12865	20211110
 void DFSnBFS();	// 1260 20211110
 void searchMaze(); // 2178 20211115
 void estateNum(); // 2667 20211116
-void virus();	// 2606 20211116
+void virus();	// 2606 20211116 앞으로 주석은 영어로 입력하기. Git에서 pull 할때, 한글주석은 다 깨져서 내려옴. 
+void cabbage(); // 1012 20211117
+void tomato(); // 7576 20211117 
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -19,5 +21,7 @@ int main(int argc, char** argv) {
 	//searchMaze();
 	//estateNum();
 	//virus();
+	//cabbage();
+	//tomato();
 	return 0;
 }
