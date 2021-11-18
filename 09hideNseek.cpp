@@ -7,6 +7,8 @@
 // if(visit[t] .... t> K) wasn't corrected.
 // this sourcecode received correct sign.
 // Must remember, If use BFS, there must check visit availability.
+//
+
 /*
 #include <iostream>
 #include <queue>
