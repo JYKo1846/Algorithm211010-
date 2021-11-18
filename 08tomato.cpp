@@ -2,7 +2,7 @@
 // Completed with BFS
 // checking tomatoes number for checking unriped tomatoes. If, tmtNum value != 0 -> It means cannot reached tomato existed.
 // and, check queue size for required minimum days.
-
+/*
 #include <stdio.h>
 #include <queue>
 #include <utility>
@@ -78,4 +78,4 @@ void tomato() {
 	
 	if(tmtNum!= 0) day= -1;
 	printf("%d\n", day);
-}
+}*/
