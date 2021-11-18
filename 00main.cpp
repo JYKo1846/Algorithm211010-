@@ -11,6 +11,7 @@ void estateNum(); // 2667 20211116
 void virus();	// 2606 20211116 앞으로 주석은 영어로 입력하기. Git에서 pull 할때, 한글주석은 다 깨져서 내려옴. 
 void cabbage(); // 1012 20211117
 void tomato(); // 7576 20211117 
+void hideNseek(); // 1697 20211118
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -23,5 +24,6 @@ int main(int argc, char** argv) {
 	//virus();
 	//cabbage();
 	//tomato();
+	//hideNseek();
 	return 0;
 }
