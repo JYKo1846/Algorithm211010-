@@ -12,6 +12,7 @@ void virus();	// 2606 20211116 앞으로 주석은 영어로 입력하기. Git에서 pull 할때,
 void cabbage(); // 1012 20211117
 void tomato(); // 7576 20211117 
 void hideNseek(); // 1697 20211118
+void numOfConnect(); // 11724 20211119
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -25,5 +26,6 @@ int main(int argc, char** argv) {
 	//cabbage();
 	//tomato();
 	//hideNseek();
+	//numOfConnect();
 	return 0;
 }
