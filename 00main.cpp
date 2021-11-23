@@ -15,6 +15,9 @@ void hideNseek(); // 1697 20211118
 void numOfConnect(); // 11724 20211119
 void lab(); 	// 14502 20211120
 void hansoo(); 	// 1065 20211122
+void selfNum(); // 4673 20211123
+void blackJack(); // 2798 20211123
+void numOfIsland(); // 4963 20211123
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -31,5 +34,8 @@ int main(int argc, char** argv) {
 	//numOfConnect();
 	//lab();
 	//hansoo();
+	//selfNum();
+	//blackJack();
+	//numOfIsland();
 	return 0;
 }
