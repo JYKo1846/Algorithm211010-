@@ -18,6 +18,9 @@ void hansoo(); 	// 1065 20211122
 void selfNum(); // 4673 20211123
 void blackJack(); // 2798 20211123
 void numOfIsland(); // 4963 20211123
+void divideSum(); // 2231 20211124
+void bulk();	 // 7568  20211124
+void safeArea(); // 2468  20211124
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -37,5 +40,9 @@ int main(int argc, char** argv) {
 	//selfNum();
 	//blackJack();
 	//numOfIsland();
+	//divideSum();
+	//bulk();
+	//safeArea();
+	
 	return 0;
 }
