@@ -21,6 +21,9 @@ void numOfIsland(); // 4963 20211123
 void divideSum(); // 2231 20211124
 void bulk();	 // 7568  20211124
 void safeArea(); // 2468  20211124
+void sevenDwarves(); // 2309 20211125
+void retouchB();	// 1018 20211125
+void alphabet();	// 1987	20211125
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -43,6 +46,9 @@ int main(int argc, char** argv) {
 	//divideSum();
 	//bulk();
 	//safeArea();
+	//sevenDwarves();
+	//retouchB();
+	alphabet();	
 	
 	return 0;
 }
