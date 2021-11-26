@@ -24,6 +24,7 @@ void safeArea(); // 2468  20211124
 void sevenDwarves(); // 2309 20211125
 void retouchB();	// 1018 20211125
 void alphabet();	// 1987	20211125
+void queen();		// 9663 20211126
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -48,7 +49,8 @@ int main(int argc, char** argv) {
 	//safeArea();
 	//sevenDwarves();
 	//retouchB();
-	alphabet();	
+	//alphabet();	
+	queen();
 	
 	return 0;
 }
