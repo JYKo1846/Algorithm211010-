@@ -49,8 +49,8 @@ int main(int argc, char** argv) {
 	//safeArea();
 	//sevenDwarves();
 	//retouchB();
-	//alphabet();	
-	queen();
+	//alphabet();
+	//queen();
 	
 	return 0;
 }
