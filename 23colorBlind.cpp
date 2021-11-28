@@ -1,55 +1,33 @@
-// BOJ 10026 Red,Green Color-blindness
-// Use BFS. 1st try failed.
-
+//BOJ 10026 2021.11.28
+// use BFS twice.
+/*
 #include <iostream>
 #include <queue>
 #include <utility>
 
 using namespace std;
 
-char area[105][105];
-bool chk[105][105];
-queue<pair<int, int> > q;		// queue for bfs
-int blindA= 0, normalA= 0;		// blind's area number, normal's area number
-int dx[4]= {-1, 0, 1, 0};
-int dy[4]= {0, 1, 0, -1};
-	
+char area[104][104];			// color two-dimensional array
+bool chk[104][104];				// check visitation availability
+queue<pair<int, int> > q;		// Queue for BFS
 
-void dfs(int x, int y, int N, char curC) {
-	for(int i= 0; i< 4; i++)
-	{
-		int nx= x+ dx[i];
-		int ny= y+ dy[i];
-		
-		if(nx< 0 || ny< 0 || nx>= N || ny>= N) continue;
-		char t= area[nx][ny];
-		if((t== 'R' || t=='G')&& chk[nx][ny])
-		{
-			chk[nx][ny]= 0;
-			if(t!= curC) 
-			{
-				normalA++;
-				dfs(nx, ny, N, t);
-			}
-			else 
-				dfs(nx, ny, N, curC);
-		}
-	}
-}
-
-void bfs(int N) {				// When search area, use 2 cursor, one for normal, one for color-blindness
+void bfs(int &ans, int N, bool flg) {
 	int i, j;
-	char curC;					// save Current color for search.
+	int dx[4]= {-1, 0, 1, 0};
+	int dy[4]= {0, 1, 0, -1};
+	
+	for(i= 0; i< N; i++)
+		for(j= 0; j< N; j++)
+			chk[i][j]= 1;
 	
 	for(i= 0; i< N; i++)
 	{
 		for(j= 0; j< N; j++)
 		{
-			if(chk[i][j])		// If, area[i][j] isn't checked, start BFS.
-			{					// When searching, If Find R->G area, G->R area, continue BFS.
+			if(chk[i][j])
+			{
+				char curC= area[i][j];			// curC : current area's color
 				q.push(make_pair(i, j));
-				curC= area[i][j];
-				blindA++; normalA++;
 				chk[i][j]= 0;
 				
 				while(!q.empty())
@@ -64,23 +42,31 @@ void bfs(int N) {				// When search area, use 2 cursor, one for normal, one for 
 						int ny= y+ dy[k];
 						
 						if(nx< 0 || ny< 0 || nx>= N || ny>= N) continue;
-						if(chk[nx][ny])	
+						if(chk[nx][ny])
 						{
-							if(curC==area[nx][ny])
+							if(curC!= 'B' && flg)			// flg== 1, counting color-Blindness person's area number.
 							{
-								q.push(make_pair(nx, ny));
-								chk[nx][ny]= 0;
+								if(area[nx][ny]=='G' || area[nx][ny]=='R')
+								{
+									q.push(make_pair(nx, ny));
+									chk[nx][ny]= 0;
+								}
+							
 							}
-							else if((curC== 'R'&& area[nx][ny]== 'G') || (curC== 'G'&& area[nx][ny]== 'R'))
+							else 		
 							{
-								chk[nx][ny]= 0;
-								dfs(nx, ny, N, area[nx][ny]);
-								normalA++;
+								if(curC== area[nx][ny])
+								{
+									q.push(make_pair(nx, ny));
+									chk[nx][ny]= 0;
+								}
 							}
 						}
 					}
 				}
+				ans++;
 			}
+			
 		}
 	}
 }
@@ -90,15 +76,16 @@ void colorBlind() {
 	cin.tie(0); cout.tie(0);
 	
 	int N;
-	int i, j;
+	int i;
 	
 	cin >> N;
-	for(i= 0; i< N; i++)
-		for(j= 0; j< N; j++) chk[i][j]= 1;
 	
-	for(i= 0; i< N; i++)
-		for(j= 0; j< N; j++) cin >> area[i][j];
+	for(i= 0; i< N; i++) 
+		for(int j= 0; j< N; j++)
+			cin >> area[i][j];
 	
-	bfs(N);
-	cout<< normalA << " " << blindA << "\n";
-}
+	int norN= 0, colN= 0;	// norN : normal's area num, colN : colorBlindness's area num
+	bfs(norN, N, 0);
+	bfs(colN, N, 1);
+	cout << norN << " " << colN << "\n";
+}	*/
