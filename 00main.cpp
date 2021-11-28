@@ -25,6 +25,7 @@ void sevenDwarves(); // 2309 20211125
 void retouchB();	// 1018 20211125
 void alphabet();	// 1987	20211125
 void queen();		// 9663 20211126
+void colorBlind();	// 10026 20211127
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -51,6 +52,7 @@ int main(int argc, char** argv) {
 	//retouchB();
 	//alphabet();
 	//queen();
+	//colorBlind();
 	
 	return 0;
 }
