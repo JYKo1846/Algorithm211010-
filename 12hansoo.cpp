@@ -1,6 +1,6 @@
 // BOJ 1065 Hansoo 2021.11.22
 // ez
-
+/*
 #include <iostream>
 
 using namespace std;
@@ -27,4 +27,4 @@ void hansoo() {
 		}
 	}
 	cout << ans << "\n";
-}
+}*/
