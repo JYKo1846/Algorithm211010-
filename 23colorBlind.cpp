@@ -1,4 +1,4 @@
-//BOJ 10026 2021.11.28
+//BOJ 10026 colorBlindness 2021.11.28
 // use BFS twice.
 /*
 #include <iostream>
