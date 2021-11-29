@@ -1,4 +1,4 @@
-// BOJ 9663 2021.11.26 2nd try.
+// BOJ 9663 2021.11.26 N-queen 2nd try.
 // Bruteforce. 1st code was too rough.
 // save queen's col position, row position, pos-diagonal pos, neg-diagonal pos.
 // all queens has different position of col, row, diag.
