@@ -26,6 +26,8 @@ void retouchB();	// 1018 20211125
 void alphabet();	// 1987	20211125
 void queen();		// 9663 20211126
 void colorBlind();	// 10026 20211127
+void insertOper();	// 14888 20211129
+void tomato3d();	// 7569 20211129
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -53,6 +55,8 @@ int main(int argc, char** argv) {
 	//alphabet();
 	//queen();
 	//colorBlind();
+	//insertOper();
+	tomato3d();
 	
 	return 0;
 }
