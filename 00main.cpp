@@ -28,6 +28,8 @@ void queen();		// 9663 20211126
 void colorBlind();	// 10026 20211127
 void insertOper();	// 14888 20211129
 void tomato3d();	// 7569 20211129
+void shomm();		// 1436 20211130
+void knightM();		// 7562 20211130
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -56,7 +58,9 @@ int main(int argc, char** argv) {
 	//queen();
 	//colorBlind();
 	//insertOper();
-	tomato3d();
+	//tomato3d();
+	//shomm();
+	//knightM();
 	
 	return 0;
 }
