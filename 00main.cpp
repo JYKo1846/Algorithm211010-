@@ -32,6 +32,8 @@ void shomm();		// 1436 20211130
 void knightM();		// 7562 20211130
 void startNlink();	// 14889 20211201
 void crashMove();	// 2206 20211201
+void subsequence();	// 1182 20211203
+void calcArea();	// 2583 20211203
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -65,6 +67,8 @@ int main(int argc, char** argv) {
 	//knightM();
 	//startNlink();
 	//crashMove();
+	//subsequence();
+	//calcArea();
 	
 	return 0;
 }
