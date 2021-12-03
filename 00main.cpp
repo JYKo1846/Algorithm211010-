@@ -34,6 +34,7 @@ void startNlink();	// 14889 20211201
 void crashMove();	// 2206 20211201
 void subsequence();	// 1182 20211203
 void calcArea();	// 2583 20211203
+void calcDay();		// 1476 20211203
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -69,6 +70,7 @@ int main(int argc, char** argv) {
 	//crashMove();
 	//subsequence();
 	//calcArea();
+	//calcDay();
 	
 	return 0;
 }
