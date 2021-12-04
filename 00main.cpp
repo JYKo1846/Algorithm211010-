@@ -35,6 +35,7 @@ void crashMove();	// 2206 20211201
 void subsequence();	// 1182 20211203
 void calcArea();	// 2583 20211203
 void calcDay();		// 1476 20211203
+void chickenDeli();	// 15686 20211204
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -71,6 +72,7 @@ int main(int argc, char** argv) {
 	//subsequence();
 	//calcArea();
 	//calcDay();
+	//chickenDeli();
 	
 	return 0;
 }
