@@ -4,7 +4,7 @@
 // 3rd idea, during searching, search move 1 space & break wall and move at the same time -> time out.
 // 4th idea, dfs -> Time out. DFS is not useful at distance calculation problem.
 // 5th idea, bfs with use 3-dimensional array. ->>> 2nd idea was almost close. But, forgot control the after break condition
-
+/* ANSWER CODE
 #include <stdio.h>
 #include <string.h>
 #include <queue>
@@ -128,7 +128,7 @@ int bfs(int N, int M) {				// current problem. If met a wall, dist value saved w
 	dist ans= visit[N-1][M-1];
 	return 	ans.bist < ans.dist ? ans.bist : ans.dist;
 }*/
-
+/*
 void crashMove() {
 	int N, M;
 	int i, j, t;
@@ -166,4 +166,4 @@ void crashMove() {
 	}
 	
 	printf("%d\n", ans);
-}
+}*/
