@@ -36,6 +36,8 @@ void subsequence();	// 1182 20211203
 void calcArea();	// 2583 20211203
 void calcDay();		// 1476 20211203
 void chickenDeli();	// 15686 20211204
+void tetromino();	// 14500 20211206
+void parentNode();	// 11725 20211206
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -73,6 +75,8 @@ int main(int argc, char** argv) {
 	//calcArea();
 	//calcDay();
 	//chickenDeli();
+	//tetromino();
+	//parentNode();
 	
 	return 0;
 }
