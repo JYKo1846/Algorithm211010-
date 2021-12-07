@@ -38,6 +38,8 @@ void calcDay();		// 1476 20211203
 void chickenDeli();	// 15686 20211204
 void tetromino();	// 14500 20211206
 void parentNode();	// 11725 20211206
+void remote();		// 1107	 20211207
+void babyshark();	// 16236 20211207
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -77,6 +79,8 @@ int main(int argc, char** argv) {
 	//chickenDeli();
 	//tetromino();
 	//parentNode();
+	//remote();
+	babyshark();
 	
 	return 0;
 }
