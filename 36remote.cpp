@@ -2,7 +2,6 @@
 // Imply with DFS, time spend 980ms. But, other c++ code spends 20ms. HOW? to the 2nd impliment
 /*
 #include <bits/stdc++.h>
-#include <string.h>
 #include <math.h>
 #define MAX 50000005
 
@@ -58,7 +57,6 @@ void remote() {
 // during search, 0 will problem. control if(V== 0)
 
 #include <bits/stdc++.h>
-#include <string.h>
 #include <math.h>
 #define MAX 50000000
 
