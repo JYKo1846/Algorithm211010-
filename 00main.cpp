@@ -40,6 +40,7 @@ void tetromino();	// 14500 20211206
 void parentNode();	// 11725 20211206
 void remote();		// 1107	 20211207
 void babyshark();	// 16236 20211207
+void maxdiffer();	// 10819 20211208
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -80,7 +81,8 @@ int main(int argc, char** argv) {
 	//tetromino();
 	//parentNode();
 	//remote();
-	babyshark();
+	//babyshark();
+	//maxdiffer();	
 	
 	return 0;
 }
