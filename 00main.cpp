@@ -41,6 +41,8 @@ void parentNode();	// 11725 20211206
 void remote();		// 1107	 20211207
 void babyshark();	// 16236 20211207
 void maxdiffer();	// 10819 20211208
+void twothousand();	// 12100 20211209
+void villager();	//	2644 20211209
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -82,7 +84,9 @@ int main(int argc, char** argv) {
 	//parentNode();
 	//remote();
 	//babyshark();
-	//maxdiffer();	
+	//maxdiffer();
+	//twothousand();
+	//villager();
 	
 	return 0;
 }
