@@ -44,6 +44,7 @@ void maxdiffer();	// 10819 20211208
 void twothousand();	// 12100 20211209
 void villager();	//	2644 20211209
 void allpermu();	// 10974 20211209
+void watch();		// 15683 20211210
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -88,7 +89,8 @@ int main(int argc, char** argv) {
 	//maxdiffer();
 	//twothousand();
 	//villager();
-	allpermu();
+	//allpermu();
+	//watch();
 	
 	return 0;
 }
