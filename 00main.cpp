@@ -46,7 +46,8 @@ void villager();	//	2644 20211209
 void allpermu();	// 10974 20211209
 void watch();		// 15683 20211210
 void orbescape();	// 13460 20211210
-void tsp2();		// 10971 20211210
+void tsp2();		// 10971 20211211
+void tournament();	// 1057	 20211212
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -95,6 +96,7 @@ int main(int argc, char** argv) {
 	//watch();
 	//orbescape();
 	//tsp2();
+	tournament();
 	
 	return 0;
 }
