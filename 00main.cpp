@@ -53,6 +53,7 @@ void treasureIsland();// 2589 20211213
 void bipartite();	// 1707	 20211213
 void wordMath();	// 1339  20211214
 void kevinBacon();	// 1389  20211214
+void characterArr();  // 1120 20211215
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -106,7 +107,8 @@ int main(int argc, char** argv) {
 	//treasureIsland();
 	//bipartite();
 	//wordMath();
-	kevinBacon();
+	//kevinBacon();
+	//characterArr();
 	
 	return 0;
 }
