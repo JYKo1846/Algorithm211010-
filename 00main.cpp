@@ -54,6 +54,7 @@ void bipartite();	// 1707	 20211213
 void wordMath();	// 1339  20211214
 void kevinBacon();	// 1389  20211214
 void characterArr();  // 1120 20211215
+void ladderControl(); // 15684 20211216
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -109,6 +110,7 @@ int main(int argc, char** argv) {
 	//wordMath();
 	//kevinBacon();
 	//characterArr();
+	ladderControl();
 	
 	return 0;
 }
