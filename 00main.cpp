@@ -55,6 +55,7 @@ void wordMath();	// 1339  20211214
 void kevinBacon();	// 1389  20211214
 void characterArr();  // 1120 20211215
 void ladderControl(); // 15684 20211216
+void inquality();	 // 2529  20211217
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -110,7 +111,8 @@ int main(int argc, char** argv) {
 	//wordMath();
 	//kevinBacon();
 	//characterArr();
-	ladderControl();
+	//ladderControl();
+	//inquality();
 	
 	return 0;
 }
