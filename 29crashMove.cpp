@@ -128,7 +128,7 @@ int bfs(int N, int M) {				// current problem. If met a wall, dist value saved w
 	dist ans= visit[N-1][M-1];
 	return 	ans.bist < ans.dist ? ans.bist : ans.dist;
 }*/
-/*
+/*wrong answer => BUT, IF CHECK A BREAK AVAILABILITY, THEN IT WILL CORRECT
 void crashMove() {
 	int N, M;
 	int i, j, t;
