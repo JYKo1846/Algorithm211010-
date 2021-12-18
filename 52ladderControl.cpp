@@ -13,7 +13,7 @@ struct ver{
 }typedef ver;
 
 vector<ver> lad[32];		// lad[i] : data of " horizon a ---- < data > ---- horizon b "
-bool isLine[15][15];		// isLine[i][j] : i---j line existed, 1. else, 0
+int isLine[15][15];			// isLine[i][j] : i---j line existed level . not exist -> 0
 int N, M, H;
 int ans= 199;				// answer that minimum line number that mv()== true
 
@@ -46,10 +46,28 @@ bool mv() {					// find 1~ N's destination function, If one of line i don't reac
 		}
 	}
 	return true;
+}*/
+/*
+void dfs(int curH, int m) {		// curH : current height.  m : current line number made
+	if(m> 3)
+		return ;
+	
+	if(mv())
+	{
+		ans= ans < m ? ans : m;
+		return ;
+	}
+	
+	for(int i= 0; i< lad[curH].size; i++)
+	{
+		
+		// create left ladder from line
+		
 }
 */
+
+/*
 // imply wrong way. need new function
-/*		
 void dfs(int curH, int m) {		// curH : current height.  m : current line number made
 	if(m> 3)
 		return ;
@@ -115,7 +133,7 @@ void ladderControl() {
 		
 		// st-----st+1 connect
 		tl.st= ts; tl.dst= ts+1;
-		isLine[ts][ts+1]= 1;
+		isLine[ts][ts+1]= tlv;
 		lad[tlv].push_back(tl);
 		
 		// st+1-----st connect
@@ -124,13 +142,14 @@ void ladderControl() {
 		lad[tlv].push_back(tl);
 	}
 
+	cout << "==================================" << "\n";
 	for(i= 1; i<= N; i++)
 	{
 		for(j= 1; j<= N; j++) cout << isLine[i][j] << " ";
 		cout << "\n";
 	}
 
-	dfs(0, 0);
+	dfs(1, 0);
 
 	if(ans== 199) ans= -1;
 	cout << ans << "\n";
