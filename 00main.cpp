@@ -56,6 +56,11 @@ void kevinBacon();	// 1389  20211214
 void characterArr();  // 1120 20211215
 void ladderControl(); // 15684 20211216
 void inquality();	 // 2529  20211217
+void candy();		// 3085  20211220
+void popMove();		// 16234 20211220
+void snowWhite();	// 3040	 20211221
+void eureka();		// 10448 20211221
+void escape();		// 3055  20211221
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -113,6 +118,11 @@ int main(int argc, char** argv) {
 	//characterArr();
 	//ladderControl();
 	//inquality();
+	//candy();
+	//popMove();
+	//snowWhite();
+	//eureka();
+	escape();
 	
 	return 0;
 }
