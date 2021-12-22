@@ -61,6 +61,8 @@ void popMove();		// 16234 20211220
 void snowWhite();	// 3040	 20211221
 void eureka();		// 10448 20211221
 void escape();		// 3055  20211221
+void lab3();		// 17142 20211222
+void glacier();		// 2573	 20211222
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -122,7 +124,9 @@ int main(int argc, char** argv) {
 	//popMove();
 	//snowWhite();
 	//eureka();
-	escape();
+	//escape();
+	//lab3();
+	glacier();
 	
 	return 0;
 }
