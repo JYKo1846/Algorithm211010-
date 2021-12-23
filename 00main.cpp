@@ -63,6 +63,8 @@ void eureka();		// 10448 20211221
 void escape();		// 3055  20211221
 void lab3();		// 17142 20211222
 void glacier();		// 2573	 20211222
+void teach();		//	1062 20211223
+void treeDiameter(); // 1967 20211223
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -126,7 +128,9 @@ int main(int argc, char** argv) {
 	//eureka();
 	//escape();
 	//lab3();
-	glacier();
+	//glacier();
+	//teach();
+	//treeDiameter();
 	
 	return 0;
 }
