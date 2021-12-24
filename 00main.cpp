@@ -65,6 +65,8 @@ void lab3();		// 17142 20211222
 void glacier();		// 2573	 20211222
 void teach();		//	1062 20211223
 void treeDiameter(); // 1967 20211223
+void divide();		// 1075  20211224
+void castleDefense(); // 17135 20211224
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -131,6 +133,8 @@ int main(int argc, char** argv) {
 	//glacier();
 	//teach();
 	//treeDiameter();
+	//divide();
+	//castleDefense();
 	
 	return 0;
 }
