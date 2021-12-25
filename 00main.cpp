@@ -67,6 +67,9 @@ void teach();		//	1062 20211223
 void treeDiameter(); // 1967 20211223
 void divide();		// 1075  20211224
 void castleDefense(); // 17135 20211224
+void numSquare();	// 1051  20211225
+void numBaseball();	// 2503  20211225
+void hideNseek3();	// 13549 20211225
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -135,6 +138,9 @@ int main(int argc, char** argv) {
 	//treeDiameter();
 	//divide();
 	//castleDefense();
+	//numSquare();
+	//numBaseball();
+	hideNseek3();
 	
 	return 0;
 }
