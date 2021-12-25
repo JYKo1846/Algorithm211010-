@@ -1,5 +1,7 @@
 // BOJ 1051 number square 2021.12.25
 /*
+// USE SIMPLE BF
+
 #include <iostream>
 
 using namespace std;
