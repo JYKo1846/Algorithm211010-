@@ -70,6 +70,10 @@ void castleDefense(); // 17135 20211224
 void numSquare();	// 1051  20211225
 void numBaseball();	// 2503  20211225
 void hideNseek3();	// 13549 20211225
+void superMario();	// 2851  20211228
+void docuSearch();	// 1543  20211228
+void DSLR();		// 9019	 20211228
+
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -140,7 +144,10 @@ int main(int argc, char** argv) {
 	//castleDefense();
 	//numSquare();
 	//numBaseball();
-	hideNseek3();
+	//hideNseek3();
+	//superMario();
+	//docuSearch();
+	DSLR();
 	
 	return 0;
 }
