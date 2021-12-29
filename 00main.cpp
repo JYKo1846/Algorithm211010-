@@ -73,7 +73,9 @@ void hideNseek3();	// 13549 20211225
 void superMario();	// 2851  20211228
 void docuSearch();	// 1543  20211228
 void DSLR();		// 9019	 20211228
-
+void gerry();		// 17471 20211229
+void startlink();	// 5014	 20211229
+void treeDiameter2(); // 1167 20211229
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -147,7 +149,10 @@ int main(int argc, char** argv) {
 	//hideNseek3();
 	//superMario();
 	//docuSearch();
-	DSLR();
+	//DSLR();
+	//gerry();
+	//startlink();
+	treeDiameter2();
 	
 	return 0;
 }
