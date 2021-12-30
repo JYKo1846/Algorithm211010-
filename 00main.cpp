@@ -76,6 +76,7 @@ void DSLR();		// 9019	 20211228
 void gerry();		// 17471 20211229
 void startlink();	// 5014	 20211229
 void treeDiameter2(); // 1167 20211229
+void stickPaper();	// 17136 20211230
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -152,7 +153,8 @@ int main(int argc, char** argv) {
 	//DSLR();
 	//gerry();
 	//startlink();
-	treeDiameter2();
+	//treeDiameter2();
+	stickPaper();
 	
 	return 0;
 }
