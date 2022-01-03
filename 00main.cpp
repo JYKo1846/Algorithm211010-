@@ -77,6 +77,10 @@ void gerry();		// 17471 20211229
 void startlink();	// 5014	 20211229
 void treeDiameter2(); // 1167 20211229
 void stickPaper();	// 17136 20211230
+void mineCraft();	// 18111 20220103
+void superBinaryS();  // 15641 20220103
+void bracket();		// 16637 20220103
+void termProject(); // 9466  20220103
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -154,7 +158,11 @@ int main(int argc, char** argv) {
 	//gerry();
 	//startlink();
 	//treeDiameter2();
-	stickPaper();
+	//stickPaper();
+	//mineCraft();
+	//superBinaryS();
+	//bracket();
+	//termProject();
 	
 	return 0;
 }
