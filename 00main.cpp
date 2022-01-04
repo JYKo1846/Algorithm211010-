@@ -81,6 +81,8 @@ void mineCraft();	// 18111 20220103
 void superBinaryS();  // 15641 20220103
 void bracket();		// 16637 20220103
 void termProject(); // 9466  20220103
+void turnMatrix();	// 17406 20220104
+void findRoute();	// 11403 20220104
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -163,6 +165,8 @@ int main(int argc, char** argv) {
 	//superBinaryS();
 	//bracket();
 	//termProject();
+	//turnMatrix();
+	findRoute();
 	
 	return 0;
 }
