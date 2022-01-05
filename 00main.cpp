@@ -83,6 +83,8 @@ void bracket();		// 16637 20220103
 void termProject(); // 9466  20220103
 void turnMatrix();	// 17406 20220104
 void findRoute();	// 11403 20220104
+void assignRoom();  // 14697 20220105
+void makeBridge2();	// 17472 20220105
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -166,7 +168,9 @@ int main(int argc, char** argv) {
 	//bracket();
 	//termProject();
 	//turnMatrix();
-	findRoute();
+	//findRoute();
+	//assignRoom();
+	//makeBridge2();
 	
 	return 0;
 }
