@@ -85,6 +85,8 @@ void turnMatrix();	// 17406 20220104
 void findRoute();	// 11403 20220104
 void assignRoom();  // 14697 20220105
 void makeBridge2();	// 17472 20220105
+void boardJump();	// 2210  20220105
+void gerry2();		// 17779 20220106
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -171,6 +173,8 @@ int main(int argc, char** argv) {
 	//findRoute();
 	//assignRoom();
 	//makeBridge2();
+	//boardJump();
+	gerry2();
 	
 	return 0;
 }
