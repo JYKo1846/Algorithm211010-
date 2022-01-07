@@ -87,6 +87,7 @@ void assignRoom();  // 14697 20220105
 void makeBridge2();	// 17472 20220105
 void boardJump();	// 2210  20220105
 void gerry2();		// 17779 20220106
+void makeBridge();	// 2146  20220107
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -174,7 +175,8 @@ int main(int argc, char** argv) {
 	//assignRoom();
 	//makeBridge2();
 	//boardJump();
-	gerry2();
+	//gerry2();
+	//makeBridge();
 	
 	return 0;
 }
