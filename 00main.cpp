@@ -90,6 +90,8 @@ void gerry2();		// 17779 20220106
 void makeBridge();	// 2146  20220107
 void fourSquares(); // 17626 20220108
 void movePipe1();	// 17070 20220108
+void primeNpalin(); // 1747  20220109
+void tree();		// 1068  20220109
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -180,7 +182,9 @@ int main(int argc, char** argv) {
 	//gerry2();
 	//makeBridge();
 	//fourSquares();
-	movePipe1();
+	//movePipe1();
+	//primeNpalin();
+	//tree();
 	
 	return 0;
 }
