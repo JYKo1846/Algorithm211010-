@@ -92,6 +92,8 @@ void fourSquares(); // 17626 20220108
 void movePipe1();	// 17070 20220108
 void primeNpalin(); // 1747  20220109
 void tree();		// 1068  20220109
+void baseballball(); // 17281 20220110
+void cheese(); 		//  2636  20220110
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -185,6 +187,8 @@ int main(int argc, char** argv) {
 	//movePipe1();
 	//primeNpalin();
 	//tree();
+	//baseballball();
+	cheese();
 	
 	return 0;
 }
