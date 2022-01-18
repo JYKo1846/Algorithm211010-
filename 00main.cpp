@@ -94,6 +94,9 @@ void primeNpalin(); // 1747  20220109
 void tree();		// 1068  20220109
 void baseballball(); // 17281 20220110
 void cheese(); 		//  2636  20220110
+void atleast();		// 1145  20220118
+void riceCakeT();	// 2502  20220118
+void letsTrv();		// 1976  20220118
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -188,7 +191,10 @@ int main(int argc, char** argv) {
 	//primeNpalin();
 	//tree();
 	//baseballball();
-	cheese();
+	//cheese();
+	//atleast();
+	//riceCakeT();
+	letsTrv();
 	
 	return 0;
 }
