@@ -97,6 +97,7 @@ void cheese(); 		//  2636  20220110
 void atleast();		// 1145  20220118
 void riceCakeT();	// 2502  20220118
 void letsTrv();		// 1976  20220118
+void binaryST();	// 5639  20220119
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -194,7 +195,8 @@ int main(int argc, char** argv) {
 	//cheese();
 	//atleast();
 	//riceCakeT();
-	letsTrv();
+	//letsTrv();
+	binaryST();
 	
 	return 0;
 }
