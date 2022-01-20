@@ -1,5 +1,5 @@
 // BOJ 5639 binary search tree 2022.01.19
-
+/*
 #include <iostream>
 #include <vector>
 
@@ -10,24 +10,32 @@ vector<int> v;
 void srch(int cur, int lmt) {		// cur: current node's number, lmt: arrray size for search ( L or R )
 	int nl= 0, i;
 	
-	for(i= cur+1; i<= lmt; i++, nl++)
-		if(v[i]> v[cur]) break;
+	if(cur> v.size()-1) return ;
 	
+	for(i= cur+1; i<= lmt; i++)
+	{
+		if(v[i]> v[cur]) break;
+		nl++;
+	}
+*/	
+	/*cout << "CURRENT POS : " << cur << " , CURRENT NODE : " << v[cur] << ", CURRENT LIMIT : " << lmt << " , CURRENT NEW-LIMIT : " << nl << "\n";
 	cout << "LEFT SUB-TREE\n";
-	for(i= cur+1; i<= nl; i++)
+	for(i= cur+1; i<= cur+ nl; i++)
 		cout << v[i] << "\n";
 	cout << "RIGHT SUB-TREE\n";
-	for(i= nl+1; i<= lmt; i++)
+	for(i= cur+ nl+1; i<= lmt; i++)
 		cout << v[i] << "\n";
-	cout << "CURRENT NODE : " << v[cur] << "\n";
+	*/
+/*	
 	if(nl!= 0)
 	{	
 		// search left tree
-		srch(cur+1, nl);
-		
-		// search right tree
-		srch(nl+1, lmt);
+		srch(cur+1, cur+ nl);
 	}
+	
+	if(cur+ nl+1 <= lmt)
+		srch(cur+ nl+1, lmt);
+	
 	cout << v[cur] << "\n";
 }
 
@@ -39,6 +47,5 @@ void binaryST() {
 	while(cin >> i)
 		v.push_back(i);
 	
-	cout << "V.SIZE() : " << v.size() << "\n";
 	srch(0, v.size()-1);
-}
+}*/
