@@ -102,6 +102,10 @@ void hideNseek4();  // 13913 20220120
 void AtoB();		// 16953 20220124
 void primeRoute();	// 1963  20220125
 void walkingWB();   // 9205  20220125
+void effectHack();	// 1325  20220126
+void monkeyTohorse(); // 1600 20220126
+void DNA();			// 1969  20220126
+void elemenMath();	// 2702  20220126
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -204,7 +208,11 @@ int main(int argc, char** argv) {
 	//hideNseek4();
 	//AtoB();
 	//primeRoute();
-	walkingWB();
+	//walkingWB();
+	//effectHack();
+	//monkeyTohorse();
+	//DNA();
+	elemenMath();
 	
 	return 0;
 }
