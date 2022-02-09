@@ -106,6 +106,7 @@ void effectHack();	// 1325  20220126
 void monkeyTohorse(); // 1600 20220126
 void DNA();			// 1969  20220126
 void elemenMath();	// 2702  20220126
+void hideNseek2();	// 12851 20220209
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -212,7 +213,8 @@ int main(int argc, char** argv) {
 	//effectHack();
 	//monkeyTohorse();
 	//DNA();
-	elemenMath();
+	//elemenMath();
+	//hideNseek2();
 	
 	return 0;
 }
