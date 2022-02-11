@@ -107,6 +107,9 @@ void monkeyTohorse(); // 1600 20220126
 void DNA();			// 1969  20220126
 void elemenMath();	// 2702  20220126
 void hideNseek2();	// 12851 20220209
+void sequencePartMul();	// 2670 20220210
+void putOper2();	// 15658 20220210
+void storeRoof();	// 2304  20220211
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -215,6 +218,9 @@ int main(int argc, char** argv) {
 	//DNA();
 	//elemenMath();
 	//hideNseek2();
+	//sequencePartMul();
+	//putOper2();
+	storeRoof();
 	
 	return 0;
 }
