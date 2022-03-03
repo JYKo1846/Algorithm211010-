@@ -115,6 +115,7 @@ void crazyRobot();	// 1405  20220218
 void diceYut();		// 17825 20220226
 void puyopuyo();	// 11559 20220301
 void wedding();		// 5567  20220302
+void emoticon();	// 14226 20220303
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -231,7 +232,8 @@ int main(int argc, char** argv) {
 	//cheese();
 	//diceYut();
 	//puyopuyo();
-	wedding();
+	//wedding();
+	emoticon();
 	
 	return 0;
 }
