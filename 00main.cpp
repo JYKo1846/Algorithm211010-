@@ -116,6 +116,7 @@ void diceYut();		// 17825 20220226
 void puyopuyo();	// 11559 20220301
 void wedding();		// 5567  20220302
 void emoticon();	// 14226 20220303
+void fire();		// 5427	 20220304
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -233,7 +234,8 @@ int main(int argc, char** argv) {
 	//diceYut();
 	//puyopuyo();
 	//wedding();
-	emoticon();
+	//emoticon();
+	//fire();
 	
 	return 0;
 }
