@@ -231,7 +231,7 @@ int main(int argc, char** argv) {
 	//delicious();
 	//crazyRobot();
 	//cheese();
-	//diceYut();
+	diceYut();
 	//puyopuyo();
 	//wedding();
 	//emoticon();
