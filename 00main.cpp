@@ -117,6 +117,10 @@ void puyopuyo();	// 11559 20220301
 void wedding();		// 5567  20220302
 void emoticon();	// 14226 20220303
 void fire();		// 5427	 20220304
+void make1_2();		// 12852 20220308
+void height_order(); // 2458 20220310
+void picture();		// 1926  20220311
+void Omok();		// 2615  20220311
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -231,11 +235,15 @@ int main(int argc, char** argv) {
 	//delicious();
 	//crazyRobot();
 	//cheese();
-	diceYut();
+	//diceYut();
 	//puyopuyo();
 	//wedding();
 	//emoticon();
 	//fire();
+	//make1_2();
+	//height_order();
+	//picture();
+	Omok();
 	
 	return 0;
 }
