@@ -122,6 +122,8 @@ void height_order(); // 2458 20220310
 void picture();		// 1926  20220311
 void Omok();		// 2615  20220311
 void weightLimit();	// 1939  20220314
+void waterBottle();	// 2251  20220316
+void number1();		// 4375  20220316
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -245,7 +247,9 @@ int main(int argc, char** argv) {
 	//height_order();
 	//picture();
 	//Omok();
-	weightLimit();
+	//weightLimit();
+	//waterBottle();
+	number1();
 	
 	return 0;
 }
