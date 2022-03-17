@@ -124,6 +124,8 @@ void Omok();		// 2615  20220311
 void weightLimit();	// 1939  20220314
 void waterBottle();	// 2251  20220316
 void number1();		// 4375  20220316
+void ABCDE();		// 13023 20220317
+void KdistCity();	// 18352 20220317
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -249,7 +251,9 @@ int main(int argc, char** argv) {
 	//Omok();
 	//weightLimit();
 	//waterBottle();
-	number1();
+	//number1();
+	//ABCDE();
+	KdistCity();
 	
 	return 0;
 }
