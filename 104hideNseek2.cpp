@@ -1,3 +1,4 @@
+// BOJ 12851 hide N seek 2 2022.02.09
 /*
 #include <iostream>
 #include <cstring>
