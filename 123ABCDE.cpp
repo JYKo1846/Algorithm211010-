@@ -11,12 +11,11 @@ bool vst[2004];
 vector<int> v[2004];
 bool isFind;
 
-bool dfs(int cur, int dpt) {
-	/if(isFind) return 1;
+void dfs(int cur, int dpt) {
 	if(dpt== 5) 
 	{
 		isFind= 1;
-		return 1;
+		return ;
 	}
 	
 	for(int i= 0; i< v[cur].size(); i++)
@@ -25,13 +24,11 @@ bool dfs(int cur, int dpt) {
 		if(!vst[t])
 		{
 			vst[t]= 1;
-			if(dfs(t, dpt+ 1))
-				return 1;
+			if(!isFind)
+				dfs(t, dpt+1);
 			vst[t]= 0;
 		}
 	}
-	
-	return 0;
 }
 
 void ABCDE() {
@@ -54,8 +51,8 @@ void ABCDE() {
 	for(i= 0; i< N; i++)
 	{
 		vst[i]= 1;
-		if(dfs(i, 1))
-			break;
+		if(!isFind)
+			dfs(i, 1);
 		vst[i]= 0;
 	}
 	cout << isFind << "\n";
