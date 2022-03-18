@@ -126,6 +126,8 @@ void waterBottle();	// 2251  20220316
 void number1();		// 4375  20220316
 void ABCDE();		// 13023 20220317
 void KdistCity();	// 18352 20220317
+void foodwaste();	// 1743  20220318
+void interestingNum(); // 6879 20220318
 
 int main(int argc, char** argv) {
 	//makeQ();
@@ -253,7 +255,9 @@ int main(int argc, char** argv) {
 	//waterBottle();
 	//number1();
 	//ABCDE();
-	KdistCity();
+	//KdistCity();
+	//foodwaste();
+	interestingNum();
 	
 	return 0;
 }
